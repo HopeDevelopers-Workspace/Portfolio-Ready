@@ -75,3 +75,25 @@ background: linear-gradient(45deg, #083F9B 0%, #7F56D9 100%);
 
 
     
+/* Cards */
+.card-img-top {
+    max-height: 180px;
+    object-fit: cover;
+}
+
+.enroll {
+    background-color: #007bff;
+    border: none;
+}
+
+.card .enroll:hover {
+    background-color: #0056b3;
+}
+
+
+@media (min-width: 992px) {
+    .row.gap-4 {
+        gap: 2rem;
+    }
+}
+
