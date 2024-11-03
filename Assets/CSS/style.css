@@ -3,9 +3,8 @@
 }
 
 /* Button styles */
-.sign-up{
-    background: rgb(2,0,36);
-background: linear-gradient(45deg, #083F9B 0%, #7F56D9 100%);
+.sign-up, .explore{
+    background: linear-gradient(45deg, #083F9B 0%, #7F56D9 100%);
 }
 
 .logo{
@@ -76,7 +75,6 @@ background: linear-gradient(45deg, #083F9B 0%, #7F56D9 100%);
 
     
 /* Cards */
-
 
 
 .card-img-top {
