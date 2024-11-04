@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card p-4 shadow" style="width: 100%; max-width: 500px;">
+        <h3 class="text-center mb-4">Log In</h3>
+        
+        <!-- Social Login Icons -->
+        <div class="d-flex justify-content-center gap-3 mb-3">
+            <button type="button" class="btn btn-outline-danger btn-icon">
+                <!-- <i class="bi bi-google" style="font-size: 1.5rem;"></i> -->
+                 <img src="Assets/Img/google.png" width="25rem" alt="">
+            </button>
+            <button type="button" class="btn btn-outline-primary btn-icon">
+                <i class="bi bi-facebook" style="font-size: 1.5rem;"></i>
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-icon">
+                <i class="bi bi-apple" style="font-size: 1.5rem;"></i>
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-icon">
+                <i class="bi bi-github" style="font-size: 1.5rem;"></i>
+            </button>
+        </div>
+
+        <div class="text-center my-3">
+            <span>or</span>
+        </div>
+        
+        <!-- Log In Form -->
+        <form>
+            <!-- Email -->
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            
+            <!-- Password -->
+            <div class="mb-4">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+            </div>
+            
+            <!-- Log In Button -->
+            <button type="submit" class="btn btn-primary w-100">Log In</button>
+            
+            <!-- Forgot Password & Sign Up Link -->
+            <div class="text-center mt-3">
+                <a href="#">Forgot Password?</a>
+                <p class="mt-2 mb-0">Don't have an account? <a href="sign-up.html">Sign Up</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
