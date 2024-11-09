@@ -1,10 +1,13 @@
+
+
+
 .nav-link{
   color: #000000;
 }
 
 /* Button styles */
 .sign-up, .explore{
-    background: linear-gradient(45deg, #083F9B 0%, #7F56D9 100%);
+    background: linear-gradient(45deg, #04016C 0%, #4A16BD 100%);
 }
 
 .logo{
@@ -16,10 +19,19 @@
 
 
 .hero-sec{
-    background: rgb(2,0,36);
-    background: linear-gradient(45deg, #083F9B 0%, #7F56D9 100%);
+  background: linear-gradient(45deg, #04016C 0%, #4A16BD 100%);
 }
 
+
+.hero-image{
+  background-color: #c6dfeb2c;
+  background-size: contain;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  background-position: center;
+}
 
 
 
@@ -263,3 +275,5 @@
   .my-float{
     margin-top:16px;
   }
+
+
