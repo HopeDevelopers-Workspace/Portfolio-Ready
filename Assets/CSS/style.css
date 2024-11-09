@@ -145,10 +145,12 @@
 /* Price Ribbon */
  /* HTML: <div class="ribbon">Your text content</div> */
 .price {
-    font-size: 28px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
   }
+
+
   .price {
     --f: .5em; /* control the folded part*/
     --r: .8em; /* control the ribbon shape */
