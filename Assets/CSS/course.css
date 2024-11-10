@@ -1,24 +1,23 @@
-/* HTML: <div class="ribbon">Your text content</div> */
+/* * HTML: <div class="ribbon">Your text content</div> */ 
 .amount {
-    font-size: 28px;
-    font-weight: bold;
-    color: #fff;
-  }
-  .amount{
-    --r: .4em; /* control the ribbon shape (the radius) */
-
-    position: absolute;
-    bottom: 2px;
-    inset-inline: calc(-1*var(--r));
-    text-align: center;
-    line-height: 1.8; 
-    padding: 0 .5em calc(2*var(--r));
-    border-radius: var(--r);
-    --_g:100%/var(--r) calc(2*var(--r)) no-repeat;
-    background: 
-      radial-gradient(100% 50% at right,#0005 98%,#0000 101%) 0    var(--_g),
-      radial-gradient(100% 50% at left ,#0005 98%,#0000 101%) 100% var(--_g),
-      conic-gradient(from 90deg at var(--r) calc(100% - 2*var(--r)),#0000 25%,#3FB8AF 0)
-       0 0/calc(100% - var(--r)) 100%;
-  }
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.amount {
+  --f: .5em; /* control the folded part */
   
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 1.8;
+  padding-inline: 1lh;
+  padding-bottom: var(--f);
+  border-image: conic-gradient(#0008 0 0) 51%/var(--f);
+  clip-path: polygon(
+    100% calc(100% - var(--f)),100% 100%,calc(100% - var(--f)) calc(100% - var(--f)),var(--f) calc(100% - var(--f)), 0 100%,0 calc(100% - var(--f)),999px calc(100% - var(--f) - 999px),calc(100% - 999px) calc(100% - var(--f) - 999px));
+  transform: translate(calc((cos(45deg) - 1)*100%), -100%) rotate(-45deg);
+  transform-origin: 100% 100%;
+  background-color: #F07818; /* the main color  */
+}
+
