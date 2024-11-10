@@ -72,7 +72,7 @@
     .signin {
       position: absolute;
       width: 400px;
-      background: #222;
+      background: #f7f7f7;
       z-index: 1000;
       display: flex;
       justify-content: center;
@@ -113,12 +113,12 @@
     .signin .content .form .inputBox input {
       position: relative;
       width: 100%;
-      background: #333;
+      background: #e6e6e6;
       border: none;
       outline: none;
       padding: 25px 10px 7.5px;
       border-radius: 4px;
-      color: #fff;
+      color: #616161;
       font-weight: 500;
       font-size: 1em;
     }
@@ -128,7 +128,7 @@
       left: 0;
       padding: 15px 10px;
       font-style: normal;
-      color: #aaa;
+      color: #9a9b9a;
       transition: 0.5s;
       pointer-events: none;
     }
@@ -137,7 +137,7 @@
     .signin .content .form .inputBox input:valid ~ i {
       transform: translateY(-7.5px);
       font-size: 0.8em;
-      color: #fff;
+      color: #9a9b9a;
     }
 
     .signin .content .form .links {
@@ -148,7 +148,7 @@
     }
 
     .signin .content .form .links a {
-      color: #fff;
+      color: #5ed100;
       text-decoration: none;
     }
 
@@ -160,7 +160,7 @@
     .signin .content .form .inputBox input[type="submit"] {
       padding: 10px;
       background: #5ed100;
-      color: #000;
+      color: #ffffff;
       font-weight: 600;
       font-size: 1.35em;
       letter-spacing: 0.05em;
