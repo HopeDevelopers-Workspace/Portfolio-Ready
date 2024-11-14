@@ -55,19 +55,12 @@
 
 
 .hero-sec{
-  background: linear-gradient(45deg, #04016C 0%, #4A16BD 100%);
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
 }
 
 
-.hero-image{
-  background-color: #c6dfeb2c;
-  background-size: contain;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 30%;
-  border-bottom-left-radius: 30%;
-  background-position: center;
-}
+
+
 
 
 

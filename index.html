@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,44 +64,40 @@
         </div> -->
         <!-- Promotion End -->
 
-        <div class="container-fluid">
+        <div class="container-fluid" style="background-color: #1A1A2E;">
          
           <!-- Logo HTML -->
-          <a href="#" class="logo-container">
-            <i class="fas fa-code logo-icon"></i>
-            <span class="logo-text-portfolio">Portfolio</span>
-            <span class="logo-text-ready">Ready</span>
-          </a>
+           <img src="Assets/Img/logo-1.png" width="250px" height="auto"  alt="Portfolio Ready Logo">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke="black" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/>
+                    <path stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/>
                 </svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto ms-auto mb-2 mb-md-0">
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#">Home</a>
+                        <a class="nav-link text-light" href="#">Home</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="courses.html">Courses</a>
+                        <a class="nav-link text-light" href="courses.html">Courses</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#">Blog</a>
+                        <a class="nav-link text-light" href="#">Blog</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#">Shop</a>
+                        <a class="nav-link text-light" href="#">Shop</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#">Pages</a>
+                        <a class="nav-link text-light" href="#">Pages</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#">Events</a>
+                        <a class="nav-link text-light" href="#">Events</a>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="btn  btn-outline-primary me-2" onclick="window.location='login.html'" type="button">Login</button>
-                    <button class="btn btn-primary" onclick="window.location='sign-up.html'" type="button">Enroll Now</button>
+                    <button class="btn  me-2" style="color: #4BE5CA; border: 1px solid #4BE5CA;" onclick="window.location='login.html'" type="button">Login</button>
+                    <button class="btn " style="background-color: #4BE5CA; color: #1A1A2E;"  onclick="window.location='sign-up.html'" type="button">Register</button>
                 </form>
             </div>
         </div>
@@ -100,27 +105,31 @@
 </header>
 
 <!-- Hero Section Start -->
-<section class="hero-sec container-fluid pt-5">
-    <div class="row mt-5 d-flex gap-2 align-items-center justify-content-center">
-        <div class="col-md-5 text-center text-md-start">
-            <p class="text-light" style="font-size: 0.9rem; font-family:sans-serif;">#Mastering Web Development</p>
-            <h1 class="text-light" style="font-family: rowdies;">Learn to design, code, and <span style="color: #4BE5CA;">launch websites</span>  from scratch</h1>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4 mb-4">
-                <button class="btn btn-outline-light me-md-2" type="button" aria-label="View Courses">View Courses</button>
-                <a class="link text-light text-decoration-none" href="#">Get Free Consultation</a>
-            </div>
-            <div class="mt-3 search d-flex align-items-center">
-                <i class="fa fa-search text-light me-2"></i>
-                <input type="text" class="form-control" placeholder="What do you want to learn today?" aria-label="Search courses">
-                <button class="btn btn-primary ms-2" type="button">Search</button>
-            </div>
-        </div>
-       <div class="col-md-4">
-            <img src="Assets/Img/hero-4.png" class="img-fluid ms-auto hero-image" alt="Hero image showcasing coding">
-            
-        </div>
-    </div>
+<section class="hero-sec container-fluid pt-5 pb-2">
+  <div class="row mt-5 d-flex gap-3 align-items-center justify-content-center">
+      <div class="col-md-5 text-center text-md-start">
+          <p class="text-light fs-6" style="font-family: sans-serif;">#Mastering Web Development</p>
+          <h1 class="text-dark display-4" style="font-family: rowdies;">
+              Learn to design, code, and <span style="color: #4BE5CA;">launch websites</span> from scratch
+          </h1>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4 mb-4">
+              <button class="btn btn-outline-dark me-md-2" type="button" aria-label="View Courses">View Courses</button>
+              <a class="link text-dark text-decoration-none" href="#" aria-label="Get Free Consultation">Get Free Consultation</a>
+          </div>
+          <div class="mt-3 search d-flex align-items-center">
+              <i class="fa fa-search text-light me-2" aria-hidden="true"></i>
+              <input type="text" class="form-control" placeholder="What do you want to learn today?" aria-label="Search courses">
+              <button class="btn btn-primary ms-2" type="button">Search</button>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <video width="100%" style="border-radius: 5rem 0 5rem;" playsinline autoplay loop muted aria-hidden="true">
+              <source src="https://hawk-style.com/wp-content/uploads/2024/07/websites-promo.mp4" type="video/mp4">
+          </video>
+      </div>
+  </div>
 </section>
+
 
 
 <!-- Client 1 - Bootstrap Brain Component -->
@@ -333,7 +342,7 @@
 
 <!-- Footer 11 - Bootstrap Brain Component -->
 <footer class=" py-sm-3 py-md-4 py-xl-6">
-    <div class="container-fluid bg-dark py-3 py-md-6 py-xl-9 py-xxl-10">
+    <div class="container-fluid py-3 py-md-6 py-xl-9 py-xxl-10" style="background-color:  #1A1A2E;">
       <div class="row justify-content-center">
         <div class="col-11">
   
